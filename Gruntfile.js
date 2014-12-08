@@ -12,6 +12,8 @@ module.exports = function(grunt) {
       },
       dist: {
         files: {
+          'min/signup.min.js':['js/signup.js'],
+          'min/us-states.min.js':['js/us-statues.js'],
           'lib/jquery.min.js':['lib/jquery.js'],
           'lib/bootstrap.min.js':['lib/bootstrap.js']
         }
